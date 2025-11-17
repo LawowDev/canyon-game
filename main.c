@@ -168,7 +168,7 @@ void game(void)
     }
 
     mvprintw(LINES-2, 0, "you noob, you only survived %d lines (or %d seconds) which makes you the worst player i have ever seen", line_counter, line_counter*(1/50));
-    mvprintw(LINES-1, 0, "press q to exit...");
+    mvprintw(LINES-1, 0, "press a to exit...");
 
     nodelay(stdscr, FALSE);
 
